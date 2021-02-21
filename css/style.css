@@ -1,0 +1,30 @@
+
+body{
+  text-align: center;
+}
+.plateau {
+  border: 1px solid #dadce0;
+  height: 561px;
+  width: 524px;
+  background-image: linear-gradient(to right top, #df90bc, #cf92c5, #be94cc, #ab97cf, #9899cf, #9797d0, #9794d2, #9792d3, #b188d2, #cd7cc8, #e76db4, #fb5f99);
+  margin: 0 auto;
+}
+
+.candycase{
+  display: inline-block;
+  border: 1px solid #dadce0;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+}
+.candycase>img{
+  height: 50px;
+  width: 50px;
+
+}
+.selection{
+  background-color: lightgray;
+}
+.deselection{
+  background-color: white;
+}
